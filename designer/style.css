@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.hero{
+    background-image: 
+    linear-gradient(to right, rgb(45, 25, 10), rgba(45, 25, 10, 0)), 
+    url("/assets/bg-home.webp");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}   
+
+.overlay img{
+    max-width: 360px;
+    height: auto;
+    margin-bottom: -70px;
+    margin: 20px 170px 0;
+}
+
+.hero-text{
+    max-width: 500px;
+    font-family: "Georgia", Sans-serif;
+    font-size: 23px;
+    color: #FFE7D9;
+    margin: 50px 180px 0 ;
+}
+
+.hero-text h1{
+    font-weight: 100;
+    margin-top: -80px;
+}
+
+.hero-text p{
+    margin-top: -330px;
+    color: white;
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 18px;
+}
