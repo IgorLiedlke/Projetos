@@ -8,6 +8,8 @@
     background-image: 
     linear-gradient(to right, rgb(45, 25, 10), rgba(45, 25, 10, 0)), 
     url("/assets/bg-home.webp");
+    border-radius: 20px;
+    margin-top: -20px;
     height: 90vh;
     background-position: center;
     background-size: cover;
@@ -18,25 +20,107 @@
     max-width: 360px;
     height: auto;
     margin-bottom: -70px;
-    margin: 20px 170px 0;
+    margin: 8% 10% 0;
 }
 
 .hero-text{
-    max-width: 500px;
     font-family: "Georgia", Sans-serif;
     font-size: 23px;
     color: #FFE7D9;
-    margin: 50px 180px 0 ;
+    margin: 4.3rem 11.25rem 0 ;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-text h1{
+    max-width: 45%;
     font-weight: 100;
-    margin-top: -80px;
+    margin-top: -5rem;
 }
 
 .hero-text p{
-    margin-top: -330px;
+    max-width: 37%;
+    margin-top: 2rem;
     color: white;
     font-family: "Instrument Sans", Sans-serif;
     font-size: 18px;
+}
+
+.main-button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D58759C7;
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    height: 110px;
+    width: 380px;
+    margin-bottom: 100%;
+    margin-top: 2rem;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.images{
+    display: flex;
+}
+
+.cards{
+    width: 21rem;
+    height: 16rem;
+    padding: 15px;
+    border-right: 1px solid #6b6b6b6b;
+    margin-top: 2rem;
+}
+
+.cards img{
+    display: flex;
+    width: 21rem;
+    height: 14rem;
+    border-radius: 15px;
+}
+
+.cards p{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 1.2em;
+    color: #743511bb;
+    margin-top: 10px;
+}
+
+.first-content .main-button{
+    margin-top: 5rem;
+}
+
+.first-content h1{
+    margin-top: 11rem;
+    font-family: "Georgia", Sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #743611;
+}
+
+.paragraph{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #74361199;
+    text-align: center;
+    margin-top: 2rem;
+    width: 55rem;
+    line-height: 3;
 }
