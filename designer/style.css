@@ -61,6 +61,13 @@
     margin-top: 2rem;
 }
 
+.main-button:hover{
+    transition: 0.8s;
+    background-color: #7e4829;
+    cursor: pointer;
+
+}
+
 .first-content{
     display: flex;
     flex-direction: column;
@@ -201,6 +208,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
 
 .back{
@@ -258,4 +266,32 @@
     max-width: 370px;
     padding: 30px;
     margin-top: -6rem;
+}
+
+#project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos h1{
+    height: auto;
+    margin-top: 4rem;
+    font-family: "Georgia", Sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #743611;
+
+    max-width: 65rem;
+}
+
+.projetos p{
+    height: auto;
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #74361199;
+    line-height: 3;
 }
