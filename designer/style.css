@@ -124,3 +124,138 @@
     width: 55rem;
     line-height: 3;
 }
+
+.two-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8%;
+}
+
+.title2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.title2 h1{
+    margin-top: 11rem;
+    font-family: "Georgia", Sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #743611;
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 80px;
+}
+
+.info{
+    background-color: #362010;
+    padding: 9px 15px;
+    border-radius: 7px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    height: 20px;
+    margin-top: -20rem;
+}
+
+.p-info{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 400px;
+}
+
+.content-div{
+    width: 800px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.foto img{
+    max-height: 700px;
+    margin-top: 800px;
+    border-radius: 18px;
+    box-shadow: 3px 6px 8px 5px rgba(0, 0, 0, 0.26);
+    margin: 17rem 7rem 0 -8rem;
+}
+
+.paragraph2{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #74361199;
+    margin-top: -5rem;
+    width: 55rem;
+    line-height: 3;
+}
+
+.tree-content{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back{
+    background-color: transparent;
+    background-image: radial-gradient(at top left, #64371C 0%, #1E140C 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-etp{
+    padding-top: 35px;
+    font-family: "Georgia", Sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #F1F1F1;
+}
+
+.etapa h1{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #C99B80;
+    -webkit-box-reflect: below -80px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+}
+
+.etapa p{
+    font-family: "Instrument Sans", Sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 1.2em;
+    color: #F1F1F1;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.etapas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    justify-content: center;
+    margin-top: -5rem;
+    gap: 40px;
+}
+
+.etapa{
+    display: flex;
+    height: auto;
+    max-width: 370px;
+    padding: 30px;
+    margin-top: -6rem;
+}
